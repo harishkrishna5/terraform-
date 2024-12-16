@@ -1,5 +1,5 @@
 provider "aws" {
-  region = "us-west-2"  # You can specify the AWS region her
+  region = "us-west-2"  # You can specify the AWS region here
 }
 
 resource "aws_vpc" "main_vpc" {
